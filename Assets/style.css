@@ -1,0 +1,73 @@
+body {
+    font-family: Arial;
+    line-height: 1.5;
+  }
+
+.header {
+    display: flex;
+    flex: 1 0 200px;
+    border-style: solid;
+    justify-content: center;
+}
+
+.header h1 {
+    display: flex;
+    flex: 1 0 ;
+    padding: 2px;
+    border: 5px;
+    border-style: solid;
+    margin: 20px;
+    justify-content: center;
+    
+}
+
+.nav {
+    display: flex;
+    flex: 1 0 200px;
+    position:relative;
+    border-style: dashed;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.nav h2 {
+    display: flex;
+    flex: 1 0 200px;
+    position:relative;
+    border-style: dashed;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+article {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.firstApp {
+    display: flex;
+    flex: 1 0 200px;
+    position:relative;
+    border-style: ridge;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    
+}
+
+.secondApp {
+    display: flex;
+    flex: 1 0 200px;
+    position:relative;
+    border-style: ridge;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin: 2%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
