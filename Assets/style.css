@@ -37,7 +37,7 @@ body {
     position:relative;
     border-style: dashed;
     flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: center;
 }
 article {
     display: flex;
